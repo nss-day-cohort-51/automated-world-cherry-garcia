@@ -1,6 +1,10 @@
-let italyCelebData = [
+export const getItalyCelebData = () => {
+    return italyCelebData;
+}
+
+const italyCelebData = [
     {
-        name: "pop Francis",
+        name: "Pope Francis",
         occupation: "Pope",
         description: "Old and Holy",
         link: "https://www.vatican.va/content/vatican/en.html"
