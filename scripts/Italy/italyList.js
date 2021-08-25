@@ -8,7 +8,9 @@ import { italyLandmarkInfo } from "./italyHtmlrep.js";
 
 
 export const getItalyData = () => {
-    const contentElement = document.querySelector(".country-card")
+    const contentElementCity = document.querySelector(".cities")
+    const contentElementCeleb = document.querySelector(".citizens")
+    const contentElementMark = document.querySelector(".landmarks");
 
     const italyCity = getItalyCityData();
     const italyCeleb = getItalyCelebData();
@@ -30,9 +32,9 @@ export const getItalyData = () => {
         italyMarkRep += italyLandmarkInfo(countMark);
     })
 
-    contentElement.innerHTML += italyCityRep;
+    contentElementCity.innerHTML += italyCityRep;
 
-    contentElement.innerHTML += italyCelebRep;
+    contentElementCeleb.innerHTML += italyCelebRep;
 
-    contentElement.innerHTML += italyMarkRep
+    contentElementMark.innerHTML += italyMarkRep
 }
