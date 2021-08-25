@@ -1,43 +1,61 @@
+body{
+	margin: 0;
+}
+
+.main-container{
+	display: flex;
+}
 
 .cards{
     margin: 1em 0;
 	display: flex;
 	width: 100%;
-	flex-direction: column;
-	align-items: center;
 }
 
 .cards-container{
-	display: flex;
-	justify-content: space-evenly;
 	width: 100%;
-	min-width: 700px;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+h3 {
+	padding-left: 40px;
 }
 
 .cities {
 	display: flex;
+	justify-content: space-evenly;
 }
 
 .landmarks {
 	display: flex;
+	justify-content: space-evenly;
 
 }
 
 .citizens {
 	display: flex;
+	justify-content: space-evenly;
 
 }
 
 .card-style{
-    padding: 0 10px;
-    width: 200px;
-    border-radius: 20px
+	width: 500px;
+	border-radius: 20px;
+	box-shadow: 5px 10px #888888
 }
 
+.card-style:hover{
+	position: relative; 
+    top: -5px;
+}
 
 .card-image {
     width: 100%;
-	height: 150px;
+	height: 225px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 }
@@ -45,24 +63,31 @@
 .sectionTitles h2{
 	font-size: 30px;
 	text-align: center;
+	width: 100%;
 }
 
 main ul {
     overflow-wrap: break-word;
 }
 
-main ul li {
-	font-size: 20px;
-}
 
-ul {
+main ul li {
+	display: flex;
+	align-content: space-around;
+	font-size: 20px;
+	padding-bottom: 13px;
+	list-style: none;
+} 
+
+
+nav ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	list-style-type: none;
 	
 
-}
+} 
 
 nav a {
 	text-decoration: none;

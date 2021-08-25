@@ -5,31 +5,31 @@ export const cityInfo = (cityObj) => {
 				<ul>
 					<li>Population: ${cityObj.population}</li>
 					<li>Description: ${cityObj.description}</li>
-					<li>Link: ${cityObj.link}</li>
+					<li>Link:<a href="${cityObj.link}">Check this out!</a></li>
 				</ul>
         	</article>`
 }
 
 export const citizenInfo = (citizenObj) => {
 	return `<article class="card-style">
-				<div><img class="card-image" src="images/${citizenObj.image}"></div>
+				<div><img class="card-image" src="../images/${citizenObj.image}"></div>
 				<h3>${citizenObj.name}</h3>
 				<ul>
 					<li>${citizenObj.occupation}</li>
 					<li>Description: ${citizenObj.description}</li>
-					<li>Link: ${citizenObj.link}</li>
+					<li>Link: <a href="${citizenObj.link}">Check this out!</a></li>
 				</ul>
         	</article>`
 }
 
 export const landmarkInfo = (landObj) => {
 	return `<article class="card-style">
-				<div><img class="card-image" src="images/${landObj.image}"></div>
+				<div><img class="card-image" src="../images/${landObj.image}"></div>
 				<h3>${landObj.name}</h3>
 				<ul>
-					<li>${landObj.year}</li>
+					<li>Year: ${landObj.year}</li>
 					<li>Description: ${landObj.description}</li>
-					<li>Link: ${landObj.link}</li>
+					<li class>Link: <a href="${landObj.link}">Check this out!</a></li>
 				</ul>
         	</article>`
 }
