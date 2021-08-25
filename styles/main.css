@@ -80,14 +80,14 @@ main ul li {
 } 
 
 
-ul {
+nav ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	list-style-type: none;
 	
 
-}
+} 
 
 nav a {
 	text-decoration: none;

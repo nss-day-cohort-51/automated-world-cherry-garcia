@@ -21,7 +21,7 @@ const cities = [
     },
     {
         name: "Normandy",
-        image: "versailles.jpg",
+        image: "normandy.jpg",
         population: "3.5 million",
         description: "Normandy is on the great historic regions of France. There are several great tourist attractions located here such as The D-Day landings at The Normandy Beaches, Mont Saint Michel, and Rouen Cathedral.",
         link: "https://en.normandie-tourisme.fr/about-normandy/some-landmarks/where-is-normandy/"
