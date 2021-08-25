@@ -13,7 +13,7 @@ export const cityList = () =>{
 
 const addCitiesToDom = (arrayOfCities) => {
 
-    const contentElement = document.querySelector(".country-cards")
+    const contentElement = document.querySelector(".cities")
 
     let cityHTMLRepresentation = ""
 
@@ -32,7 +32,7 @@ export const citizenList = () =>{
 
 const addCitizensToDom = (arrayOfCitizens) => {
 
-    const contentElement = document.querySelector(".country-cards")
+    const contentElement = document.querySelector(".citizens")
 
     let citizenHTMLRepresentation = ""
 
@@ -50,7 +50,7 @@ export const landmarkList = (arrayofLandmarks) =>{
 
 const addLandmarksToDom = (arrayofLandmarks) => {
 
-    const contentElement = document.querySelector(".country-cards")
+    const contentElement = document.querySelector(".landmarks")
 
     let landmarkHTMLRepresentation = ""
 
