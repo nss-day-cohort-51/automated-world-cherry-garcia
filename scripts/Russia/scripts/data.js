@@ -1,6 +1,6 @@
 export const cityInfo = (cityObj) => {
 	return `<article class="card-style">
-				<div><img class="card-image" src="images/${cityObj.image}" /></div>
+				<div><img class="card-image" src="../images/Russia/${cityObj.image}" /></div>
 				<h3>${cityObj.name}</h3>
 				<ul>
 					<li>Population: ${cityObj.population}</li>
@@ -12,7 +12,7 @@ export const cityInfo = (cityObj) => {
 
 export const citizenInfo = (citizenObj) => {
 	return `<article class="card-style">
-				<div><img class="card-image" src="images/${citizenObj.image}" /></div>
+				<div><img class="card-image" src="../images/Russia/${citizenObj.image}" /></div>
 				<h3>${citizenObj.name}</h3>
 				<ul>
 					<li>${citizenObj.occupation}</li>
@@ -24,7 +24,7 @@ export const citizenInfo = (citizenObj) => {
 
 export const landmarkInfo = (landObj) => {
 	return `<article class="card-style">
-				<div><img class="card-image" src="images/${landObj.image}" /></div>
+				<div><img class="card-image" src="../images/Russia/${landObj.image}" /></div>
 				<h3>${landObj.name}</h3>
 				<ul>
 					<li>${landObj.year}</li>
