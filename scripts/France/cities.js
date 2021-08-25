@@ -7,14 +7,14 @@ export const getCities = () => {
 const cities = [
     {
         name: "Paris",  
-        image: "versailles.jpg",
+        image: "paris.jpg",
         population: "2.16 million",
         description: "Nicknamed the city of lights, Paris is known as the capital of France. It is the center of French economy, politics, traffic, and culture. It is also home to some of the most famous art museums and historical buildings in the world.",
         link: "https://en.parisinfo.com/"
     },
     {
         name: "Versailles",
-        image: "paris.jpg",
+        image: "versailles.jpg",
         population: "85,424",
         description: "Just outside of Paris, Versailles is a majestic French city with deep roots, renowned internationally for its famous Palace of Versailles and gardens.",
         Link: "https://en.versailles-tourisme.com/"
