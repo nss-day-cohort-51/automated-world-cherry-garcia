@@ -12,7 +12,7 @@ export const cityInfo = (cityObj) => {
 
 export const citizenInfo = (citizenObj) => {
 	return `<article class="card-style">
-				<div><img class="card-image" src="images/${citizenObj.image}" /></div>
+				<div><img class="card-image" src="images/${citizenObj.image}" alt="${citizenObj.alt}"/></div>
 				<h3>${citizenObj.name}</h3>
 				<ul>
 					<li>${citizenObj.occupation}</li>

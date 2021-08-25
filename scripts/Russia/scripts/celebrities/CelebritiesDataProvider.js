@@ -5,6 +5,7 @@ export const getCitizens = () => {
 
 const citizens = [
     {name:"Mila Kunis",
+    alt: "picture of Mila Kunis",
 occupation:"Actress",
 description:"Milena Markovna Kunis is an American actress and producer. In 1991, at the age of 7, she and her Jewish family fled from Soviet Ukraine to the United States. She's not actually Russian she just speaks it. ",
 link:"https://en.wikipedia.org/wiki/Mila_Kunis",
@@ -12,6 +13,7 @@ linkTitle: "Mila Kunis Wiki"
 },
 
 {name:"Grigori Rasputin",
+alt: "picture of Grigori Rasputi",
 occupation:"Mystic",
 description:"Grigori Yefimovich Rasputin was a Russian mystic and self-proclaimed holy man who befriended the family of Nicholas II, the last emperor of Russia, and gained considerable influence in late Imperial Russia.",
 link:"https://www.youtube.com/watch?v=NZOHQwzA0bM",
