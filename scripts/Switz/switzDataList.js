@@ -9,7 +9,9 @@ import { landInfo } from "./switzData.js";
 
 
 export const getSwitzData = () =>{
-    const contentElement = document.querySelector(".country-card")
+    const contentElementCity = document.querySelector(".city-cards")
+    const contentElementCeleb = document.querySelector(".celeb-cards")
+    const contentElementMark = document.querySelector(".mark-cards");
 
     const city = getSwitzCityData();
     const celeb = getSwitzCelebData();
@@ -31,11 +33,11 @@ export const getSwitzData = () =>{
         markRep += landInfo(countMark);
     })
 
-    contentElement.innerHTML += cityRep;
+    contentElementCity.innerHTML += cityRep;
 
-    contentElement.innerHTML += celebRep;
+    contentElementCeleb.innerHTML += celebRep;
 
-    contentElement.innerHTML += markRep;
+    contentElementMark.innerHTML += markRep;
 
 
 
