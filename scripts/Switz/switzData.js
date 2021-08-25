@@ -1,6 +1,7 @@
 export const cityInfo = (arrayObj) => {
-	return `<article class="card-city">
-				<h3 class="card-name">${arrayObj.name}</h3>
+	return `<article class="card-style">
+				<img class="card-image" src="${arrayObj.image}" alt="Image from Array"></img>
+				<h3 class="city-name">${arrayObj.name}</h3>
 				<ul>
 					<li class="card-details">Population: ${arrayObj.population}</li>
 					<li class="card-details">Description: ${arrayObj.description}</li>
@@ -10,8 +11,9 @@ export const cityInfo = (arrayObj) => {
 }
 
 export const celebInfo = (arrayObj) => {
-	return `<article class="card-celeb">
-				<h3 class="card-name">${arrayObj.name}</h3>
+	return `<article class="card-style">
+				<img class="card-image" src="${arrayObj.image}" alt="Image from Array"></img>
+				<h3 class="celeb-name">${arrayObj.name}</h3>
 				<ul>
 					<li class="card-details">Occupation: ${arrayObj.occupation}</li>
 					<li class="card-details">Description: ${arrayObj.description}</li>
@@ -21,8 +23,9 @@ export const celebInfo = (arrayObj) => {
 }
 
 export const landInfo = (arrayObj) => {
-	return `<article class="card-land">
-				<h3 class="fish-name">${arrayObj.name}</h3>
+	return `<article class="card-style">
+				<img class="card-image" src="${arrayObj.image}" alt="Image from Array"></img>
+				<h3 class="mark-name">${arrayObj.name}</h3>
 				<ul>
 					<li class="card-details">Year: ${arrayObj.year}</li>
 					<li class="card-details">Description: ${arrayObj.description}</li>
