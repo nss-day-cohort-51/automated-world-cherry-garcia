@@ -43,9 +43,12 @@ h3 {
 }
 
 .card-style{
+	display: flex;
+	flex-direction: column;
 	width: 500px;
 	border-radius: 20px;
-	box-shadow: 5px 10px #888888
+	box-shadow: 5px 10px #888888;
+	align-items: center; 
 }
 
 .card-style:hover{
@@ -125,4 +128,9 @@ nav a:active {
 html{
 	background-image: linear-gradient(45deg, white, antiquewhite, #FF8576);
 }
+
+h4 {
+	font-size: large;
+}
+
 

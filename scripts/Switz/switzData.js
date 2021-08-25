@@ -13,12 +13,10 @@ export const cityInfo = (arrayObj) => {
 export const celebInfo = (arrayObj) => {
 	return `<article class="card-style">
 				<img class="card-image" src="${arrayObj.image}" alt="Image from Array"></img>
-				<h3 class="celeb-name">${arrayObj.name}</h3>
-				<ul>
-					<li class="card-details">Occupation: ${arrayObj.occupation}</li>
-					<li class="card-details">Description: ${arrayObj.description}</li>
-					<li class="card-details">Link: <a href="${arrayObj.link}">Check this out!</a></li>
-				</ul>
+				<h2 class="celeb-name">${arrayObj.name}</h2>
+				<h4>${arrayObj.occupation}<h4>
+				<p>${arrayObj.description}<p>
+				<p><a href="${arrayObj.link}">Learn More</a><p>
         	</article>`
 }
 
