@@ -1,4 +1,8 @@
-let italyLandMarkData = [
+export const getItalyLandMarkData = () => {
+    return italyLandMarkData;
+}
+
+const italyLandMarkData = [
     {
         name: "Vatican",
         year: "852",

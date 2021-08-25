@@ -1,4 +1,8 @@
-let italyCityData = [
+export const getItalyCityData = () => {
+    return italyCityData;
+}
+
+const italyCityData = [
     {
         name: "Rome",
         population: "2,872,800",
