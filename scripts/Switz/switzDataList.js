@@ -11,7 +11,7 @@ import { landInfo } from "./switzData.js";
 export const getSwitzData = () =>{
     const contentElementCity = document.querySelector(".cities")
     const contentElementCeleb = document.querySelector(".citizens")
-    const contentElementMark = document.querySelector(".landmark");
+    const contentElementMark = document.querySelector(".landmarks");
 
     const city = getSwitzCityData();
     const celeb = getSwitzCelebData();
