@@ -54,3 +54,33 @@ main ul {
 main ul li {
 	font-size: 20px;
 }
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	list-style-type: none;
+	
+
+}
+
+a {
+	text-decoration: none;
+	border:  #0084F8 3px solid;
+	border-radius: 7px;
+	
+}
+
+a:link {
+	color: #ffff;
+	background-color: #0084F8;
+}
+
+a:visited {
+	color:#ffff;
+}
+
+a:active {
+	color:#ffff;
+}
+
