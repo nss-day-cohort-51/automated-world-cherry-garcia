@@ -29,7 +29,7 @@ export const landmarkInfo = (landObj) => {
 				<ul>
 					<li>a${landObj.year}</li>
 					<li>${landObj.description}</li>
-					<li>Learn More<a href="${landObj.link}"> ${landObj.linkDescription}</a></li>
+					<li><a href="${landObj.link}">Learn More</a></li>
 				</ul>
         	</article>`
 }
