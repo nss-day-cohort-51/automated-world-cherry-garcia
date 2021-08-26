@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	font-family: "Open Sans", sans-serif;
 }
 
 .main-container{
@@ -62,10 +63,17 @@ h3 {
 }
 
 .sectionTitles h2{
+	font-family: "Raleway", sans-serif;
 	font-size: 30px;
 	text-align: center;
 	width: 100%;
-	text-decoration-line: underline;
+	color:white;
+	text-shadow: 6px 6px 3px rgba(0,0,0,0.2);
+}
+
+.sectionTitles{
+	background-color: #FF8576;
+	border-radius: 8px;
 }
 
 main ul {
@@ -138,9 +146,15 @@ html{
 }
 
 .welcome{
+	font-family: "Raleway", sans-serif;
 	display: flex;
 	justify-content: center;
 	padding-top: 50px;
-	text-decoration-line: underline overline;
+	font-weight: bolder;
+}
+
+header{
+	background-color: white;
+	box-shadow: 0px 10px  5px rgba(0,0,0,0.6);
 }
 

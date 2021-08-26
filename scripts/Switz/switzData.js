@@ -5,7 +5,7 @@ export const cityInfo = (arrayObj) => {
 				<ul>
 					<li class="card-details">Population: ${arrayObj.population}</li>
 					<li class="card-details">${arrayObj.description}</li>
-					<li class="card-details"><a href="${arrayObj.link}">Learn More</a></li>
+					<li class="card-link"><a href="${arrayObj.link}">Learn More</a></li>
 				</ul>
         	</article>`
 }
@@ -17,7 +17,7 @@ export const celebInfo = (arrayObj) => {
 				<ul>
 					<li class="card-details">Occupation: ${arrayObj.occupation}</li>
 					<li class="card-details">${arrayObj.description}</li>
-					<li class="card-details"><a href="${arrayObj.link}">Learn More</a></li>
+					<li class="card-link"><a href="${arrayObj.link}">Learn More</a></li>
 				</ul>
         	</article>`
 }
@@ -29,7 +29,7 @@ export const landInfo = (arrayObj) => {
 				<ul>
 					<li class="card-details">${arrayObj.year}</li>
 					<li class="card-details">${arrayObj.description}</li>
-					<li class="card-details"><a href="${arrayObj.link}">Learn More</a></li>
+					<li class="card-link"><a href="${arrayObj.link}">Learn More</a></li>
 				</ul>
         	</article>`
 }
