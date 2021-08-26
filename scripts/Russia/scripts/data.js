@@ -27,7 +27,7 @@ export const landmarkInfo = (landObj) => {
 	<div><img class="card-image" src="../images/Russia/${landObj.image}" alt="${landObj.altText}"/></div>
 	<h3>${landObj.name}</h3>
 				<ul>
-					<li>a${landObj.year}</li>
+					<li>${landObj.year}</li>
 					<li>${landObj.description}</li>
 					<li><a href="${landObj.link}">Learn More</a></li>
 				</ul>
