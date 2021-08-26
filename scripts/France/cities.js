@@ -8,6 +8,7 @@ const cities = [
     {
         name: "Paris",  
         image: "paris.jpg",
+        altText: "Picture of Paris",
         population: "2.16 million",
         description: "Nicknamed the city of lights, Paris is known as the capital of France. It is the center of French economy, politics, traffic, and culture. It is also home to some of the most famous art museums and historical buildings in the world.",
         link: "https://en.parisinfo.com/"
@@ -15,6 +16,7 @@ const cities = [
     {
         name: "Versailles",
         image: "versailles.jpg",
+        altText: "Picture of Versailles",
         population: "85,424",
         description: "Just outside of Paris, Versailles is a majestic French city with deep roots, renowned internationally for its famous Palace of Versailles and gardens.",
         link: "https://en.versailles-tourisme.com/"
@@ -22,6 +24,7 @@ const cities = [
     {
         name: "Normandy",
         image: "normandy.jpg",
+        altText: "Picture of Normandy",
         population: "3.5 million",
         description: "Normandy is on the great historic regions of France. There are several great tourist attractions located here such as The D-Day landings at The Normandy Beaches, Mont Saint Michel, and Rouen Cathedral.",
         link: "https://en.normandie-tourisme.fr/about-normandy/some-landmarks/where-is-normandy/"
