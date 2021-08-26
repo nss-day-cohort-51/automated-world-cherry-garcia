@@ -5,7 +5,7 @@ export const italyCityInfo = (cityObj) => {
 				<ul>
 					<li>Population: ${cityObj.population}</li>
 					<li>Description: ${cityObj.description} inches</li>
-					<li>Link: ${cityObj.link}</li>
+					<li class="card-link"><a href="${cityObj.link}">Learn More</a></li>
 				</ul>
         	</article>`
 }
@@ -17,7 +17,7 @@ export const italyCitizenInfo = (citizenObj) => {
 				<ul>
 					<li>${citizenObj.occupation}</li>
 					<li>Length: ${citizenObj.description} inches</li>
-					<li>Found: ${citizenObj.link}</li>
+					<li class="card-link"><a href="${citizenObj.link}">Learn More</a></li>
 				</ul>
         	</article>`
 }
@@ -29,7 +29,7 @@ export const italyLandmarkInfo = (landObj) => {
 				<ul>
 					<li>${landObj.year}</li>
 					<li>Length: ${landObj.description} inches</li>
-					<li>Found: ${landObj.link}</li>
+					<li class="card-link"><a href="${landObj.link}">Learn More</a></li>
 				</ul>
         	</article>`
 }
