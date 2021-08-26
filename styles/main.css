@@ -7,6 +7,11 @@ body{
 	display: flex;
 }
 
+header img {
+	width: 125px;
+	height: 125px;
+}
+
 .cards{
     margin: 1em 0;
 	display: flex;
@@ -67,14 +72,10 @@ h3 {
 	font-size: 30px;
 	text-align: center;
 	width: 100%;
-	color:white;
+	color: black;
 	text-shadow: 6px 6px 3px rgba(0,0,0,0.2);
 }
 
-.sectionTitles{
-	background-color: #FF8576;
-	border-radius: 8px;
-}
 
 main ul {
     overflow-wrap: break-word;
@@ -89,34 +90,59 @@ main ul li {
 	list-style: none;
 } 
 
+.navbar {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+nav {
+	width: 1200px;
+	justify-content: space-evenly;
+
+}
 
 nav ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-around;
+    list-style-type: none;
 	
-
 } 
 
 nav a {
+	color: black;
+	font-size: 20px;
 	text-decoration: none;
-	border:  #0084F8 3px solid;
-	border-radius: 7px;
-	
 }
 
-nav a:link {
-	color: #ffff;
-	background-color: #0084F8;
+.button {
+	display: inline-block;
+	padding: 0.5em 2.0em;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 2em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+	background-color:#c9d6df;
+	text-align: center;
+	transition: all 0.2s;
 }
 
-nav a:visited {
-	color:#ffff;
+.button:hover {
+	background-color: #58c2f1;
 }
 
-nav a:active {
-	color:#ffff;
+@media all and (max-width:30em){
+	.button{
+		display: block;
+		margin:0.2em auto;
+	}
 }
 
 .pic-container {
@@ -158,5 +184,16 @@ html{
 header{
 	background-color: white;
 	box-shadow: 0px 10px  5px rgba(0,0,0,0.6);
+}
+
+footer {
+	margin-top: 100px;
+	background-color: white;
+	box-shadow: 0px 0px  10px rgba(0,0,0,0.6);
+}
+
+footer img {
+	width: 125px;
+	height: 125px;
 }
 
