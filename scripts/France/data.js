@@ -3,9 +3,9 @@ export const cityInfo = (cityObj) => {
 				<div><img class="card-image" src="../images/${cityObj.image}"></div>
 				<h3>${cityObj.name}</h3>
 				<ul>
-					<li>Population: ${cityObj.population}</li>
-					<li>Description: ${cityObj.description}</li>
-					<li>Link:<a href="${cityObj.link}">Learn More</a></li>
+					<li>${cityObj.population}</li>
+					<li>${cityObj.description}</li>
+					<li><a href="${cityObj.link}">Learn More</a></li>
 				</ul>
         	</article>`
 }
@@ -16,8 +16,8 @@ export const citizenInfo = (citizenObj) => {
 				<h3>${citizenObj.name}</h3>
 				<ul>
 					<li>${citizenObj.occupation}</li>
-					<li>Description: ${citizenObj.description}</li>
-					<li>Link: <a href="${citizenObj.link}">Learn More</a></li>
+					<li>${citizenObj.description}</li>
+					<li><a href="${citizenObj.link}"> Learn More</a></li>
 				</ul>
         	</article>`
 }
@@ -28,8 +28,8 @@ export const landmarkInfo = (landObj) => {
 				<h3>${landObj.name}</h3>
 				<ul>
 					<li>Year: ${landObj.year}</li>
-					<li>Description: ${landObj.description}</li>
-					<li class>Link: <a href="${landObj.link}">Learn More</a></li>
+					<li>${landObj.description}</li>
+					<li><a href="${landObj.link}"> Learn More</a></li>
 				</ul>
         	</article>`
 }
