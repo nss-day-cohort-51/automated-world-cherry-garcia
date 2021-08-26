@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	font-family: "Open Sans", sans-serif;
 }
 
 .main-container{
@@ -10,6 +11,7 @@ body{
     margin: 1em 0;
 	display: flex;
 	width: 100%;
+	flex-direction: column;
 }
 
 .cards-container{
@@ -61,9 +63,17 @@ h3 {
 }
 
 .sectionTitles h2{
+	font-family: "Raleway", sans-serif;
 	font-size: 30px;
 	text-align: center;
 	width: 100%;
+	color:white;
+	text-shadow: 6px 6px 3px rgba(0,0,0,0.2);
+}
+
+.sectionTitles{
+	background-color: #FF8576;
+	border-radius: 8px;
 }
 
 main ul {
@@ -113,10 +123,12 @@ nav a:active {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	padding-top:50px;
+	padding-bottom: 50px;
 }
 
 .pic-container img{
-	width: 900px;
+	width: 950px;
 	height: 500px;
 	border-radius: 8px;
 	box-shadow: 0px 10px  5px rgba(0,0,0,0.6);
@@ -124,5 +136,27 @@ nav a:active {
 
 html{
 	background-image: linear-gradient(45deg, white, antiquewhite, #FF8576);
+}
+
+.welcome h4{
+	display:flex;
+	justify-content: center;
+	font-style: italic;
+	font-size: x-large;
+	margin-top: none;
+}
+
+.welcome h1{
+	font-family: "Raleway", sans-serif;
+	display: flex;
+	justify-content: center;
+	font-weight: bolder;
+	margin-bottom: none;
+	height:40px;
+}
+
+header{
+	background-color: white;
+	box-shadow: 0px 10px  5px rgba(0,0,0,0.6);
 }
 
