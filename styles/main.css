@@ -72,14 +72,10 @@ h3 {
 	font-size: 30px;
 	text-align: center;
 	width: 100%;
-	color:white;
+	color: black;
 	text-shadow: 6px 6px 3px rgba(0,0,0,0.2);
 }
 
-.sectionTitles{
-	background-color: #FF8576;
-	border-radius: 8px;
-}
 
 main ul {
     overflow-wrap: break-word;
@@ -188,5 +184,16 @@ html{
 header{
 	background-color: white;
 	box-shadow: 0px 10px  5px rgba(0,0,0,0.6);
+}
+
+footer {
+	margin-top: 100px;
+	background-color: white;
+	box-shadow: 0px 0px  10px rgba(0,0,0,0.6);
+}
+
+footer img {
+	width: 125px;
+	height: 125px;
 }
 
