@@ -17,7 +17,7 @@ const cities = [
         image: "versailles.jpg",
         population: "85,424",
         description: "Just outside of Paris, Versailles is a majestic French city with deep roots, renowned internationally for its famous Palace of Versailles and gardens.",
-        Link: "https://en.versailles-tourisme.com/"
+        link: "https://en.versailles-tourisme.com/"
     },
     {
         name: "Normandy",
