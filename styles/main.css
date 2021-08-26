@@ -89,7 +89,20 @@ h3 {
 .index-card-style{
 	width: 300px;
 	border-radius: 20px;
-	box-shadow: 5px 10px #888888
+	box-shadow: 5px 10px #888888;
+	
+}
+.index-card-style a{
+	text-decoration: none;
+	color: black;
+	
+}
+.index-card-style:hover{
+	position: relative; 
+    top: -5px;
+}
+
+	
 }
 .card-style:hover{
 	position: relative; 
@@ -139,6 +152,12 @@ nav {
 
 }
 
+.nav-home {
+	width: 1000px;
+	min-width: 1000px;
+	justify-content: space-evenly;
+
+}
 nav ul {
     display: flex;
     flex-direction: row;
@@ -166,6 +185,20 @@ nav a {
 	font-weight: 300;
 	color: #FFFFFF;
 	background-color:#c9d6df;
+	text-align: center;
+	transition: all 0.2s;
+}
+.button-home {
+	display: inline-block;
+	padding: 0.5em 2.0em;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 2em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+	background-color: #58c2f1;
 	text-align: center;
 	transition: all 0.2s;
 }
