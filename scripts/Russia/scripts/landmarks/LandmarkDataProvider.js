@@ -7,26 +7,29 @@ export const getLandmarks = () => {
 const landmarks = [
     {
         name: "Moscow Kremlin",
-        image:"kremlin.jpg",
+        image:"GrandKremlinPalaceAleksandrhall.jpg",
+        altText: "Interior palace with golden facades",
         year: "1495",
         description: " It is the best known of the kremlins (Russian citadels), and includes five palaces, four cathedrals, and the enclosing Kremlin Wall with Kremlin towers. In addition, within this complex is the Grand Kremlin Palace that was formerly the Tsar's Moscow residence.",
         link: "https://en.wikipedia.org/wiki/Moscow_Kremlin",
-        linkDescription: "Moscow Kremlin Wiki"
+        linkDescription: " Moscow Kremlin Wiki"
     },
     {
-        name: "St. Petersburg Basilica",
+        name: "Saint Basils Cathedral",
         image: "stbasils.jpg",
+        altText: "Saint Basil's Cathedral as viewed from Red Square",
         year: "10 bc",
-        description: "Saint Petersburg is known as the 'Cultural Capital of Russia',and received over 15 million tourists in 2018.[14][15] It is considered an important economic, scientific, cultural, and tourism centre of Russia and Europe.",
+        description: "Saint Basil's Cathedral, is an Orthodox church in Red Square of Moscow, and is one of the most popular cultural symbols of Russia.",
         link: "https://en.wikipedia.org/wiki/Saint_Petersburg",
-        linkDescription: "St. Petersburg Wiki"
+        linkDescription: " St. Petersburg Wiki"
     },
     {
         name: "Chernobyl Exclusion Zone",
-        image: "nuked.jpg",
+        image: "chernobylPowerPlant.jpg",
+        altText: "aerial view of the damaged Chernobyl nuclear-power plant",
         year: "1986",
         description: "Officially designated exclusion zone around the site of the Chernobyl nuclear reactor disaster.Established by the Soviet Armed Forces soon after the 1986 disaster.",
         link: "https://en.wikipedia.org/wiki/Saint_Petersburg",
-        linkDescription: "St. Petersburg",
+        linkDescription: " Chernobyl Exclusion Zone Wiki",
     }
 ]

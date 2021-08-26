@@ -6,58 +6,39 @@ import { cityInfo } from "./data.js";
 import { citizenInfo } from "./data.js";
 import { landmarkInfo } from "./data.js";
 
-export const cityList = () =>{
-    const listCities = getCities()
-    addCitiesToDom(listCities)
-}
 
 
 
-const addCitiesToDom = (arrayOfCities) => {
 
-    const contentElement = document.querySelector(".country-cards")
-
-    let cityHTMLRepresentation = ""
-
-    for (const info of arrayOfCities) {
-        cityHTMLRepresentation += cityInfo(info)
-    }
-    contentElement.innerHTML += cityHTMLRepresentation
-}
+export const getRussiaData = () =>{
+    const contentElementCity = document.querySelector(".cities")
+    const contentElementCitizen = document.querySelector(".citizens")
+    const contentElementLand = document.querySelector(".landmarks")
 
 
-export const citizenList = () =>{
-    const listCitizens = getCitizens()
-    addCitizensToDom(listCitizens)
-}
+    const city = getCities()
+    const celeb = getCitizens()
+    const land = getLandmarks()
 
+    let cityRep = "";
+    let citizenRep = "";
+    let landRep = "";
 
-const addCitizensToDom = (arrayOfCitizens) => {
+    city.forEach(countCity =>{
+        cityRep += cityInfo(countCity);
+    })
 
-    const contentElement = document.querySelector(".country-cards")
+    celeb.forEach(countCeleb => {
+        citizenRep += citizenInfo(countCeleb);
+    })
 
-    let citizenHTMLRepresentation = ""
+    land.forEach(countMark => {
+        landRep += landmarkInfo(countMark);
+    })
 
-    for (const info of arrayOfCitizens) {
-        citizenHTMLRepresentation += citizenInfo(info)
-    }
-    contentElement.innerHTML += citizenHTMLRepresentation
-}
+    contentElementCity.innerHTML += cityRep;
 
-export const landmarkList = (arrayofLandmarks) =>{
-    const listLandmarks = getLandmarks()
-    addLandmarksToDom(listLandmarks)
-}
+    contentElementCitizen.innerHTML += citizenRep;
 
-
-const addLandmarksToDom = (arrayofLandmarks) => {
-
-    const contentElement = document.querySelector(".country-cards")
-
-    let landmarkHTMLRepresentation = ""
-
-    for (const info of arrayofLandmarks) {
-        landmarkHTMLRepresentation += landmarkInfo(info)
-    }
-    contentElement.innerHTML += landmarkHTMLRepresentation
+    contentElementLand.innerHTML += landRep;
 }
